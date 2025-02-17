@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+	<OutputPath>bin\$(Configuration)\$(Platform)\</OutputPath>
+	<Platforms>x64</Platforms>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="HelixToolkit" Version="2.26.0" />
+    <PackageReference Include="HelixToolkit.Wpf" Version="2.26.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\StepAPIService\StepAPIService.csproj" />
+  </ItemGroup>
+
+  <Target Name="PostBuild" AfterTargets="PostBuildEvent">
+    <Exec Command="xcopy /Y /E /I &quot;$(SolutionDir)bin\x64\$(Configuration)\native&quot; &quot;bin\$(Configuration)\$(Platform)\$(TargetFramework)&quot;" />
+  </Target>
+
+</Project>

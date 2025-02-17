@@ -1,0 +1,12 @@
+<Project>
+  <PropertyGroup>
+    <Authors>Girish</Authors>
+    <Company>Girish</Company>
+    <Owner>Girish</Owner>
+    <Product>Step Viewer</Product>
+    <Version Condition="'$(Configuration)'=='Release'" >99.99.99</Version>
+    <FileVersion Condition="'$(Configuration)'=='Release'">99.99.99</FileVersion>
+    <AssemblyVersion Condition="'$(Configuration)'=='Release'">99.99.99</AssemblyVersion>
+    <OutputPath>$(SolutionDir)bin\$(Platform)\$(Configuration)</OutputPath>
+  </PropertyGroup>
+</Project>

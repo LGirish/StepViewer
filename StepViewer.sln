@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33530.505
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{19B9485A-BFD8-4EF7-AE6A-A0A52FD4E6CC}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "StepProcessor", "src\StepProcessor\StepProcessor.vcxproj", "{C9EC5DBA-16B5-4454-8EF4-D96CE897293C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StepAPIService", "src\StepAPIService\StepAPIService.csproj", "{3F078F22-1183-46AE-9CEB-4F574F31F493}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelixViewer", "src\HelixViewer\HelixViewer.csproj", "{87ECB2C2-11AC-4CD9-BDDC-C9396BA8E40E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TessModel", "src\TessModel\TessModel.csproj", "{2AFFEF2C-A06A-4378-9B27-5ED3A24457DE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C9EC5DBA-16B5-4454-8EF4-D96CE897293C}.Debug|x64.ActiveCfg = Debug|x64
+		{C9EC5DBA-16B5-4454-8EF4-D96CE897293C}.Debug|x64.Build.0 = Debug|x64
+		{C9EC5DBA-16B5-4454-8EF4-D96CE897293C}.Release|x64.ActiveCfg = Release|x64
+		{C9EC5DBA-16B5-4454-8EF4-D96CE897293C}.Release|x64.Build.0 = Release|x64
+		{3F078F22-1183-46AE-9CEB-4F574F31F493}.Debug|x64.ActiveCfg = Debug|x64
+		{3F078F22-1183-46AE-9CEB-4F574F31F493}.Debug|x64.Build.0 = Debug|x64
+		{3F078F22-1183-46AE-9CEB-4F574F31F493}.Release|x64.ActiveCfg = Release|x64
+		{3F078F22-1183-46AE-9CEB-4F574F31F493}.Release|x64.Build.0 = Release|x64
+		{87ECB2C2-11AC-4CD9-BDDC-C9396BA8E40E}.Debug|x64.ActiveCfg = Debug|x64
+		{87ECB2C2-11AC-4CD9-BDDC-C9396BA8E40E}.Debug|x64.Build.0 = Debug|x64
+		{87ECB2C2-11AC-4CD9-BDDC-C9396BA8E40E}.Release|x64.ActiveCfg = Release|x64
+		{2AFFEF2C-A06A-4378-9B27-5ED3A24457DE}.Debug|x64.ActiveCfg = Debug|x64
+		{2AFFEF2C-A06A-4378-9B27-5ED3A24457DE}.Debug|x64.Build.0 = Debug|x64
+		{2AFFEF2C-A06A-4378-9B27-5ED3A24457DE}.Release|x64.ActiveCfg = Release|x64
+		{2AFFEF2C-A06A-4378-9B27-5ED3A24457DE}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5413EFFA-865B-4719-9132-BD456BE782DD}
+	EndGlobalSection
+EndGlobal
